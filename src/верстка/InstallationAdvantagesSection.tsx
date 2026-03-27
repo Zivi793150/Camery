@@ -69,9 +69,9 @@ export const InstallationAdvantagesSection = (): JSX.Element => {
         </div>
 
         {/* 3 Columns Grid */}
-        <div className="grid grid-cols-3 gap-6 items-stretch">
+        <div className="grid grid-cols-3 gap-6 items-stretch justify-items-center">
           {/* Left Column */}
-          <div className="flex flex-col gap-14 justify-center h-[582px]">
+          <div className="flex flex-col gap-14 justify-center h-[582px] w-full max-w-[368px] ml-auto">
             {leftItems.map((item, idx) => (
               <div key={idx} className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-[#3e3f3b] flex items-center justify-center flex-shrink-0">
@@ -90,7 +90,7 @@ export const InstallationAdvantagesSection = (): JSX.Element => {
           </div>
 
           {/* Center Card */}
-          <div className="relative rounded-[20px] overflow-hidden w-[368px] h-[582px]">
+          <div className="relative rounded-[20px] overflow-hidden w-[368px] h-[582px] mx-auto">
             <img
               className="absolute inset-0 w-full h-full object-cover"
               alt="Camera and Phone"
@@ -104,7 +104,7 @@ export const InstallationAdvantagesSection = (): JSX.Element => {
           </div>
 
           {/* Right Column */}
-          <div className="flex flex-col gap-14 justify-center h-[582px]">
+          <div className="flex flex-col gap-14 justify-center h-[582px] w-full max-w-[368px] mr-auto">
             {rightItems.map((item, idx) => (
               <div key={idx} className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-xl bg-[#3e3f3b] flex items-center justify-center flex-shrink-0">
