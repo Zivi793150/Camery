@@ -19,8 +19,8 @@ export const Header = (): JSX.Element => {
         </div>
 
         <nav className="flex items-center gap-8 [font-family:'Montserrat-Regular',Helvetica] font-normal text-[#cfcfce] text-sm tracking-[0] leading-[normal]">
-          <a className="hover:text-white" href="#">Главная</a>
-          <a className="hover:text-white" href="#">Услуги</a>
+          <a className="hover:text-white" href="#/">Главная</a>
+          <a className="hover:text-white" href="#/services">Услуги</a>
           <a className="hover:text-white" href="#">Каталог</a>
           <a className="hover:text-white" href="#">О Компании</a>
           <a className="hover:text-white" href="#">Контакты</a>
