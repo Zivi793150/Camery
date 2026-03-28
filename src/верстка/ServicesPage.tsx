@@ -27,22 +27,13 @@ export const ServicesPage = (): JSX.Element => {
   return (
     <main className="w-full min-h-screen bg-[#0e0f0a]">
       <section className="relative w-full h-[520px] overflow-hidden">
-        {/* Фон hero — два фото рядом */}
-        <div className="absolute inset-0 flex">
-          <div className="w-1/2 h-full">
-            <img
-              src={servicesHero}
-              alt=""
-              className="w-full h-full object-cover object-left"
-            />
-          </div>
-          <div className="w-1/2 h-full">
-            <img
-              src={servicesHero}
-              alt=""
-              className="w-full h-full object-cover object-right"
-            />
-          </div>
+        {/* Фон hero — единое фото */}
+        <div className="absolute inset-0">
+          <img
+            src={servicesHero}
+            alt=""
+            className="w-full h-full object-cover"
+          />
         </div>
         <div className="absolute inset-0 bg-black/60" />
 
